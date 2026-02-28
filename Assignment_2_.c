@@ -33,10 +33,33 @@ void F_cuboidVolume(){
     V=L*W*H;
     printf("Volume of the Cuboid is %d\n",V);
 }
+void F_BananaPrice(){
+    int sp,cp,rate,checkprice,profit,loss;
+    printf("Enter Cost price of 12 Banana\n");
+    scanf("%d",&cp);
+    printf("Enter Selling Price of 12 Banan\n");
+    scanf("%d",&sp);
+    rate=cp/12;
+    checkprice=rate*12;
+    int saleRate=(sp/12);
+    if(sp>checkprice)
+    {
+        profit=(saleRate*25)-(rate*25);
+        printf("Profit is %d\n",profit);
+    }
+    else
+    {
+        loss=(saleRate*25)-(rate*25);
+        printf("Loss is %d\n",loss);
+    }
+}
 int main(){
     //F_avg();// WAP to calculate Average of three numbers.
     //F_circumference();//WAP to calculate Circumference of a circle.
     //F_simpleInterest();//WAP to Calculate Simple Interest.
-    F_cuboidVolume();//WAP to calculate Volume of Cuboid.
+    //F_cuboidVolume();//WAP to calculate Volume of Cuboid.
+    F_BananaPrice(); /*WAP to ask user about the cost price and 
+                    selling price of banana per dozen.calculate the 
+                    profit or loss earned upon selling 25 bananas.*/
     return 0;
 }
