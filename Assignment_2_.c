@@ -54,10 +54,10 @@ void F_BananaPrice(){
     }
 }
 int main(){
-    //F_avg();// WAP to calculate Average of three numbers.
-    //F_circumference();//WAP to calculate Circumference of a circle.
-    //F_simpleInterest();//WAP to Calculate Simple Interest.
-    //F_cuboidVolume();//WAP to calculate Volume of Cuboid.
+    F_avg();// WAP to calculate Average of three numbers.
+    F_circumference();//WAP to calculate Circumference of a circle.
+    F_simpleInterest();//WAP to Calculate Simple Interest.
+    F_cuboidVolume();//WAP to calculate Volume of Cuboid.
     F_BananaPrice(); /*WAP to ask user about the cost price and 
                     selling price of banana per dozen.calculate the 
                     profit or loss earned upon selling 25 bananas.*/
