@@ -19,12 +19,12 @@ void p4(){
 }
 int main(){
     //WAP to calculate size of a character constant.
-    //p1();
+    p1();
     //WAP to calculate size of a real constant.
-    //p2();
+    p2();
     //WAP with one char type variable,Assign 'A' in the variable.now change the value of the variable from 'A' to 'B'.
-    //p3();
+    p3();
     //WAP to swap values of two integer variables.
-    //p4();
+    p4();
     return 0;
 }
