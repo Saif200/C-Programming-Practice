@@ -16,15 +16,15 @@ void p2(){
 }
 void p3(){
     int x=10>8>4;
-    printf("The vlaue store in X is %d\n",x);
+    printf("The vlaue store in x=10>8>1 is %d\n",x);
 }
 void p4(){
     int x=!2>-2;
-    printf("The value store in x is %d\n",x);
+    printf("The value store in x=!2>-2 is %d\n",x);
 }
 void p5(){
     int x=3<0 && 5>0;
-    printf("%d\n",x);
+    printf("The Value of x=3<0 && 5>0 is %d\n",x);
 }
 int main(){
     //Assume price of 1 usd in PKR is 280. WAP to take the amount in PKR and Convert it to USD.
