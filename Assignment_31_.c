@@ -114,12 +114,12 @@ int main(){
     scanf("%d",&size);
     int a[size];
     inputArray(a,size);
-    //int greatesNum=p1(a,size);
-   // printf("The Greatest Number in the Array is %d\n",greatesNum);
-    //int smallestNum=p2(a,size);
-    //printf("The Smallest Number in the Array is %d\n",smallestNum);
-    //p3(a,size);
-    //p4(a,size);
+    int greatesNum=p1(a,size);
+    printf("The Greatest Number in the Array is %d\n",greatesNum);
+    int smallestNum=p2(a,size);
+    printf("The Smallest Number in the Array is %d\n",smallestNum);
+    p3(a,size);
+    p4(a,size);
     int duplicate = p5(a,size);
     if(duplicate >0)
         printf("The First Adjecent Value is %d \n",duplicate);
