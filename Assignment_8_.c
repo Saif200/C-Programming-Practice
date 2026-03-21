@@ -44,6 +44,7 @@ void p3()
 }
 void p5()
 {
+    //WAP to find the greatest among the three given number.print once if the greatest number apear once, two or three.
     int num1,num2,num3;
     printf("Enter 3 numbers\n");
     scanf("%d%d%d",&num1,&num2,&num3);
