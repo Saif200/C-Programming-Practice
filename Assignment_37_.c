@@ -137,14 +137,14 @@ int main()
     scanf("%d",&size);
     getchar();
     char str[size+1];
-    //p1(str);
-    // int num=p2(str,size);
-    // if(num != -1)
-    //     printf("The Index is %d \n",num);
-    // else
-    //     printf("Character is not in the String\n");
-    // p3(str,size);
-    //p4(str,size);
+    p1(str);
+     int num=p2(str,size);
+     if(num != -1)
+         printf("The Index is %d \n",num);
+     else
+         printf("Character is not in the String\n");
+    p3(str,size);
+    p4(str,size);
     p5(str,size);
     return 0;
 }
