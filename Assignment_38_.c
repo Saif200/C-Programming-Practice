@@ -136,14 +136,14 @@ int main()
     scanf("%d",&size);
     getchar();
     char str[size+1];
-    // int ret=p1(str,size);
-    //     if(ret==1)
-    //         printf("%s is a Palindrom\n",str);
-    //     else
-    //         printf("%s is not a Palindrome\n",str);
-    // p2(str,size);
-    // p3(str,size);
-    //p4(str,size);
+     int ret=p1(str,size);
+         if(ret==1)
+            printf("%s is a Palindrom\n",str);
+         else
+            printf("%s is not a Palindrome\n",str);
+     p2(str,size);
+     p3(str,size);
+    p4(str,size);
     p5(str,size);
 
     return 0;
