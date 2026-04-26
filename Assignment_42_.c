@@ -62,45 +62,45 @@ void p5(char *str,char *result)
 int main()
 {
     int a,b;
-    // printf("Enter two numbers to swap\n");
-    // scanf("%d%d",&a,&b);
-    // printf("Number A = %d , Number B = %d before Swap\n",a,b);
-    // p1(&a,&b);
-    // printf("Number A = %d , Number B = %d After Swap\n",a,b);
-     char str[100],ch;
-     printf("Enter a Sentence of upto 100 character\n");
-     fgets(str,100,stdin);
-     str[strcspn(str,"\n")]='\0';
-    // printf("Enter a character to find its Occurances \n");
-    // scanf(" %c",&ch);
-    // getchar();
-    // int arr[100];
-    // int count=p2(str,ch,arr);
-    // if(count>0)
-    // {
-    //     printf("Character %c ",ch);
-    //     printf("is at index ");
-    //     for(int i=0;i<count;i++)
-    //         {
-    //             printf("%d ",arr[i]);
-    //         }
-    // }
-    // else
-    // {
-    //     printf("%c is not found in the sentence\n",ch);
-    // }
-    // p3(str);
-    // // printf("%s",str);
-    // for(int i=0;str[i];i++)
-    // {
-    //     printf("%c",str[i]);
-    // }
-    // p4(str);
-    // // printf("%s",str);
-    // for(int i=0;str[i];i++)
-    // {
-    //     printf("%c",str[i]);
-    // }
+    printf("Enter two numbers to swap\n");
+    scanf("%d%d",&a,&b);
+    printf("Number A = %d , Number B = %d before Swap\n",a,b);
+    p1(&a,&b);
+    printf("Number A = %d , Number B = %d After Swap\n",a,b);
+    char str[100],ch;
+    printf("Enter a Sentence of upto 100 character\n");
+    fgets(str,100,stdin);
+    str[strcspn(str,"\n")]='\0';
+    printf("Enter a character to find its Occurances \n");
+    scanf(" %c",&ch);
+    getchar();
+    int arr[100];
+    int count=p2(str,ch,arr);
+    if(count>0)
+    {
+        printf("Character %c ",ch);
+        printf("is at index ");
+        for(int i=0;i<count;i++)
+            {
+                printf("%d ",arr[i]);
+            }
+    }
+    else
+    {
+        printf("%c is not found in the sentence\n",ch);
+    }
+    p3(str);
+    // printf("%s",str);
+    for(int i=0;str[i];i++)
+    {
+        printf("%c",str[i]);
+    }
+    p4(str);
+    // printf("%s",str);
+    for(int i=0;str[i];i++)
+    {
+        printf("%c",str[i]);
+    }
     char result[100];
     p5(str,result);
 

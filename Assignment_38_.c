@@ -71,31 +71,30 @@ void p4(char str[],int size)
        is("mysirg education services, then the resulting string
        should be "services education mysirg).
     */
-    // printf("Enter %d characters for the string to reverse string  word wise\n");
-    // fgets(str,size+1,stdin);
-    // str[strcspn(str,"\n")]='\0';
-    // int count=0;
-    // char str2[size+1];
-    // for(int i=strlen(str)-1;str[i]=str[0];i--)
-    // {
-    //     if(str[i]==' ')
-    //     {
-    //         if(str[i-1]==' ')
-    //         {
-    //             continue;
-    //         }
-    //         else
-    //         {
-    //             count++;
-    //         }
-    //     }
-    //     for(int k=0,j=strlen(str)-count;str[j];k++,j++)
-    //     {
-    //         str2[k]=str[j];
-    //     }
-    // }
-    
-    //printf("%s \n",str2);
+     printf("Enter %d characters for the string to reverse string  word wise\n");
+     fgets(str,size+1,stdin);
+     str[strcspn(str,"\n")]='\0';
+     int count=0;
+     char str2[size+1];
+     for(int i=strlen(str)-1;str[i]=str[0];i--)
+     {
+         if(str[i]==' ')
+         {
+             if(str[i-1]==' ')
+             {
+                 continue;
+             }
+             else
+             {
+                 count++;
+             }
+         }
+         for(int k=0,j=strlen(str)-count;str[j];k++,j++)
+         {
+             str2[k]=str[j];
+         }
+     }
+    printf("%s \n",str2);
 
 }
 void p5(char str[],int size)
